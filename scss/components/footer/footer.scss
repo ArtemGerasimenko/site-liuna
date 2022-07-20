@@ -1,0 +1,66 @@
+.footer {
+	background-color: $c_black;
+	&__container {}
+	&__body {
+		width: 1228px;
+		margin: 60px 0;
+		display: flex;
+		justify-content: space-between;
+	}
+	&__column {
+		min-height: 216px;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+	&__logo {}
+	&__logo-img {}
+	&__copy {
+		font-size: 12px;
+		line-height: 130%;
+		color: #959595;
+	}
+	&__menu-title {}
+	&__menu {}
+	&__menu-list {
+		min-height: 173px;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+	&__menu-item {}
+	&__menu-link {
+		font-size: 18px;
+		line-height: 130%;
+		color: $c_white;
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+	&__contacts {
+		width: 242px;
+		min-height: 132px;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+	&__contacts-title {}
+	&__contacts-address {
+		font-size: 18px;
+		line-height: 130%;
+		color: $c_white;
+	}
+	&__contacts-phone {}
+	&__socials {
+		width: 150px;
+		display: flex;
+		justify-content: space-between;
+	}
+	&__socials-item {}
+	&__socials-link {}
+	&__socials-img {}
+}
+.color--orange,
+.color--orange a {
+	@extend %title_orange;
+}

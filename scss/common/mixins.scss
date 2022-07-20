@@ -1,0 +1,8 @@
+//==============Миксины===============//
+//Применение @include title(50, 400, 130%, #fff)
+@mixin title($fz,$fw,$lh,$c) {
+	font-size: $fz;
+	font-weight: $fw;
+	line-height: $lh;
+	color: $c;
+}

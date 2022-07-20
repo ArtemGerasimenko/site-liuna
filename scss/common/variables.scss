@@ -1,0 +1,14 @@
+//============Переменные==============//
+//Применение font-size: $fz; color: $c; backraund-color: $bgc;
+$c_white: #ffffff;
+$c_orange: #FF9825;
+$c_black: #252525;
+$c_hover: #F08018;
+$c_light: #FFE1C0;
+
+//Брекпоинты 
+//Приминение @media (max-width: $breakpoint_xxl)
+$breakpoint_xxl: 1200px;
+$breakpoint_xl: 1024px;
+$breakpoint_md: 767px;
+$breakpoint_sm: 576px;

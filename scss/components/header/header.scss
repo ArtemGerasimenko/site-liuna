@@ -1,0 +1,124 @@
+.header {
+	position: relative;
+	background-color: $c_orange;
+	min-height: 60px;
+	&__container {
+		display: flex;
+		justify-content: space-between;
+	}
+	&__logo {
+		margin: 16px 0 15px 0;
+	}
+	&__logo-img {}
+	&__menu {
+		display: flex;
+		align-items: center;
+		padding: 0 15px;
+	}
+	&__search {}
+	&__search-img {}
+}
+.menu {
+	&__list {
+		min-width: 750px;
+		display: flex;
+		justify-content: space-between;
+	}
+	&__item {
+		position: relative;
+		&:hover .sub-menu__list{
+			display: block;
+		}
+	}
+	&__link{
+		color: $c_white;
+		font-size: 18px;
+		line-height: 130%;
+		transition: transform 0.2s linear;
+		&:hover{
+			display: inline-block;
+			transform: scale(1.1);
+		}
+	}
+}
+.active-menu {
+	font-weight: 700;
+}
+.sub-menu {
+	&__list {
+		min-width: 250px;
+		position: absolute;
+		top: 27px;
+		left: -15px;
+		display: none;
+		padding-top: 15px;
+	}
+	&__item {
+		background-color: rgba(28,16,1, 0.9);
+		box-shadow: 3px 3px 3px $c_orange;
+		transition: background-color 0.3s ease;
+		&:hover{
+			background-color: #F08018;
+		}
+	}
+	&__link {
+		color: $c_white;
+		font-size: 16px;
+		line-height: 130%;
+		display: inline-block;
+		padding: 15px;
+	}
+}
+
+//-----------------------Форма поиска ----------------------
+.search {
+	&__body {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		background-color: $c_orange;
+		min-height: 60px;
+		display: none;
+	}
+	&__container {
+		display: flex;
+		justify-content: space-between;
+	}
+	&__logo {
+		margin: 16px 0 15px 0;
+	}
+	&__logo-img {}
+	&__form {
+		min-width: 750px;
+		display: flex;
+		justify-content: space-between;
+		padding: 0 15px;
+		box-sizing: content-box;
+	}
+	&__close-btn {}
+	&__close-img {
+		width: 22px;
+		height: 22px;
+	}
+}
+.form {
+	&__search-btn {}
+	&__search-img {
+		display: block;
+	}
+	&__search-input {
+		display: block;
+		width: 708px;
+		font-size: 20px;
+		background-color: transparent;
+		color: $c_white;
+		
+		&::placeholder{
+			color: $c_white;
+		}
+	}
+}
+.active-form{
+	display: block;
+}
