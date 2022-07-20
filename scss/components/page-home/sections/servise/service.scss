@@ -1,0 +1,41 @@
+.service {
+	margin-top: 120px;
+	&__container {
+		display: flex;
+		justify-content: space-between;
+	}
+	&__image {}
+	&__image-img {
+		margin-left: -150px;
+	}
+	&__body {
+		max-width: 620px;
+		max-height: 337px;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+	&__body-suptitle {
+		@extend %title_min;
+	}
+	&__body-title {
+		@extend %title;
+	}
+	&__body-item {
+		font-size: 24px;
+		line-height: 130%;
+		position: relative;
+		padding-left: 32px;
+
+		&::before {
+			content: "";
+			width: 12px;
+			height: 12px;
+			background-color: $c_orange;
+			position: absolute;
+			top: 10px;
+			left: 0;
+			border-radius: 50%;
+		}
+	}
+}
