@@ -1,0 +1,21 @@
+.hero {
+	&__container {}
+	&__title {
+		@extend %title_big;
+		text-align: center;
+		margin-top: 20px;
+	}
+	&__subtitle {
+		width: 860px;
+		margin: 10px auto 0;
+		font-size: 24px;
+		line-height: 130%;
+		text-align: center;
+	}
+	&__image {
+		margin-top: 40px;
+	}
+	&__image-img {
+		margin-left: -150px;
+	}
+}

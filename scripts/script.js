@@ -9,11 +9,3 @@ searchBtn.addEventListener('click', () => {
 closeBtn.addEventListener('click', () => {
 	searchBody.classList.remove('active-form');
 });
-
-const menuActive = document.querySelectorAll(".menu__link");
-
-menuActive.forEach(item => {
-	item.addEventListener('click', () => {
-		menuActive.classList.add('active-menu');
-	});
-});

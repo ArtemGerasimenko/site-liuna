@@ -84,6 +84,13 @@ h1, h2, h3, h4, h5, h6, p {
   line-height: inherit;
 }
 
+.hero__title {
+  font-family: Oswald, sans-serif;
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 148%;
+}
+
 .color--orange,
 .color--orange a {
   font-weight: 700;
@@ -275,6 +282,24 @@ body {
 
 .active-form {
   display: block;
+}
+
+.hero__title {
+  text-align: center;
+  margin-top: 20px;
+}
+.hero__subtitle {
+  width: 860px;
+  margin: 10px auto 0;
+  font-size: 24px;
+  line-height: 130%;
+  text-align: center;
+}
+.hero__image {
+  margin-top: 40px;
+}
+.hero__image-img {
+  margin-left: -150px;
 }
 
 .footer {
