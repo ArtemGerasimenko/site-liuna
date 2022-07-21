@@ -10,3 +10,8 @@ Results of the day.
 
 Added three new sections to the main page.
 Complete completion of the main page.
+
+22.07.2022 (Day Three)
+Results of the day.
+
+Added site icon favicon.
