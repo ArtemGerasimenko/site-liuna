@@ -9,11 +9,7 @@
 		margin-left: -150px;
 	}
 	&__body {
-		max-width: 620px;
-		max-height: 337px;
-		display: flex;
-		flex-direction: column;
-		justify-content: space-between;
+		width: 620px;
 	}
 	&__body-suptitle {
 		@extend %title_min;
@@ -26,7 +22,9 @@
 		line-height: 130%;
 		position: relative;
 		padding-left: 32px;
-
+		&:not(:last-child) {
+			margin-bottom: 30px;
+		}
 		&::before {
 			content: "";
 			width: 12px;

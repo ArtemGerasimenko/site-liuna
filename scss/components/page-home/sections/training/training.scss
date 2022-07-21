@@ -1,0 +1,67 @@
+.training {
+	margin-top: 120px;
+	background-color: $c_black;
+	&__container {
+		display: flex;
+		justify-content: space-between;
+	}
+	&__body {
+		width: 530px;
+		color: $c_white;
+		margin: 60px 0;
+	}
+	&__body-suptitle {
+		@extend %title_min;
+	}
+	&__body-title {
+		@extend %title;
+	}
+	&__body-text {
+		font-size: 16px;
+		line-height: 130%;
+		margin-bottom: 30px;
+	}
+	&__body-button {}
+	&__body-button-btn {
+		font-weight: 700;
+		font-size: 18px;
+		line-height: 130%;
+		width: 157px;
+		height: 47px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		color: $c_white;
+		background-color: $c_orange;
+		border-radius: 5px;
+		transition: all 0.3s ease;
+		&:hover {
+			background-color: $c_hover;
+		}
+	}
+	&__advantages {
+		width: 640px;
+		color: $c_white;
+		margin: 193px 0 142px 0;
+		display: flex;
+		justify-content: space-between;
+	}
+	&__advantages-item {
+		width: 210px;
+		height: 151px;
+		text-align: center;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+}
+.item {
+	&__sum {
+		@extend %title_big;
+		color: $c_orange;
+	}
+	&__text {
+		font-size: 16px;
+		line-height: 130%;
+	}
+}

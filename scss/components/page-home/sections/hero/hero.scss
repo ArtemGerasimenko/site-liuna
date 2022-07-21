@@ -1,9 +1,9 @@
 .hero {
+	margin-top: 20px;
 	&__container {}
 	&__title {
 		@extend %title_big;
 		text-align: center;
-		margin-top: 20px;
 	}
 	&__subtitle {
 		max-width: 860px;
