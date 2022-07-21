@@ -6,7 +6,6 @@
 	&__title {
 		@extend %title;
 		color: $c_white;
-		margin-bottom: 24px;
 		text-align: center;
 	}
 	&__form {
@@ -32,7 +31,6 @@
 		color: $c_white;
 		padding-bottom: 10px;
 		outline: none;
-
 		&:focus ~ .form__item-label,
 		&:not(:placeholder-shown) ~ .form__item-label {
 			top: -18px;
